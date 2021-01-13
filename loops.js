@@ -114,4 +114,31 @@ for (let i = 0; i < gameBoard.length; i++) {
   }
 }
 
-console.log('Total score is', totalScore);
+// console.log('Total score is', totalScore);
+
+// //////////////////////
+// FOR OF LOOPS
+///////////////////////////
+
+let subreddits = [
+  'javascript',
+  'programming',
+  'cats',
+  'books',
+  'skateboarding',
+];
+
+// standard for loop
+for (let i = 0; i < subreddits.length; i++) {
+  //   console.log(subreddits[i]);
+}
+
+// Much cleaner for of loop
+for (let sub of subreddits) {
+  //   console.log(sub);
+}
+
+// Works with iterables - so a string too!
+for (let char of 'cockadoodledoo') {
+  console.log(char.toUpperCase());
+}
