@@ -145,3 +145,23 @@ if (user.notifications === []) {
 if (!user.notifications.length) {
   console.log('No new notifications');
 }
+
+let helon = {
+  firstName: 'Helon',
+  lastName: 'Roop',
+  age: 22,
+  job: 'teacher',
+  friends: ['john', 'bob', 'nicholas cage'],
+};
+
+let john = {
+  firstName: 'john',
+  lastName: 'bogan',
+  age: 22,
+  job: 'teacher',
+  friends: ['john', 'bob', 'nicholas cage'],
+};
+
+console.log(
+  `${john.firstName} has ${john.friends.length} friends, and his best friend is ${john.friends[1]}`
+);
