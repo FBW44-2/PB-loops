@@ -134,11 +134,19 @@ for (let i = 0; i < subreddits.length; i++) {
 }
 
 // Much cleaner for of loop
-for (let sub of subreddits) {
-  //   console.log(sub);
+for (let subreddit of subreddits) {
+  console.log(`${subreddit} - www.reddit.com/r/${subreddit}`);
 }
 
+let chickenString = 'cockadoodledoo';
+
 // Works with iterables - so a string too!
-for (let char of 'cockadoodledoo') {
-  console.log(char.toUpperCase());
+for (let character of chickenString) {
+  console.log(character.toUpperCase());
+}
+
+let people = ['john', 'bob', 'linda'];
+
+for (let names of people) {
+  //   console.log(names);
 }
